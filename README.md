@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# React JS Assignement
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This assignment is created using React-JS
 
 ## Available Scripts
 
