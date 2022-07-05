@@ -107,8 +107,8 @@ const Breeds = () => {
         justifyContent: 'center',
         
       }}>
-        <input type="text" value={filter} onChange={(e) => setFilter(e.target.value)} />  
-        <button className='ui button blue' onClick={() => filterResults(filter)}>
+        <input type="text" value={filter} style = {{marginRight:'6px'}}onChange={(e) => setFilter(e.target.value)} />  
+        <button className='button-t' onClick={() => filterResults(filter)}>
           Search
         </button>
       </div>   
@@ -119,7 +119,7 @@ const Breeds = () => {
           marginRight: '1rem'
         }}>
         <button className='button-sort' onClick={(e) => sorting(sortDesc)} >
-          {`${sortDesc ? 'Sort Asc' : 'Sort Desc'}`}
+          {`${sortDesc ? 'Sort Asc' : 'Sort Dsc'}`}
         </button>
           </div> 
 <div className="card-container">
@@ -127,7 +127,7 @@ const Breeds = () => {
     <div className="flip-card">
     <div className="flip-card-inner">
       <div className="flip-card-front">
-        <img src={`${item.image.url}`} style={{width:"250px",height:"250px"}}/>
+        <img src={`${item.image.url}`} style={{width:"250px",height:"250px",borderRadius:'20px'}}/>
       </div>
       <div className="flip-card-back">
         <h2>{`${item.name}`}</h2>
