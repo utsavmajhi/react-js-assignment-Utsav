@@ -1,4 +1,4 @@
-# React JS Assignement
+# React JS Assignment
 
 This assignment is created using React-JS
 
